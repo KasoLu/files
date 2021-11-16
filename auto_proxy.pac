@@ -1,4 +1,4 @@
-const PROXY_HOST = "127.0.0.1";
+const PROXY_HOST = "172.20.82.31";
 const PROXY_PORT = 8888;
 
 function FindProxyForURL(url, host) {
