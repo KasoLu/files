@@ -4,6 +4,6 @@ function FindProxyForURL(url, host) {
         isInNet(resolved_ip, "172.16.0.0", "255.240.0.0") ||
         isInNet(resolved_ip, "192.168.0.0", "255.255.0.0"))
         return "DIRECT";
-    return "HTTP 172.20.82.31:8888; DIRECT";
+    return "PROXY 172.20.82.31:8888; DIRECT";
 }
 
